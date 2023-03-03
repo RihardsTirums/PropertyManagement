@@ -64,6 +64,30 @@ Overall, the solution aims to streamline the management of these objects and pro
 [Filter.webm](https://user-images.githubusercontent.com/38011256/222733419-1e073554-f15e-49c3-8de8-cd3185c3bf3e.webm)
 
 ## Installation
+<ol>
+<li>Clone this repository - <code>https://github.com/RihardsTirums/PropertyManagement.git</code></li>
+<li>Install the dependencies - <code>composer install</code></li>
+<li>Install the dependencies - <code>npm install</code></li>
+<li>Rename <code>.env.example</code> file to <code>.env</code>
+<li>Create a MySQL database and new schema and then add all the credentials into the ".env" file about your database you created
+<ul>
+    <li>DB_CONNECTION</li>
+    <li>DB_HOST</li>
+    <li>DB_PORT</li>
+    <li>DB_DATABASE</li>
+    <li>DB_USERNAME</li>
+    <li>DB_PASSWORD</li>
+</ul>
+<li>Run this command into terminal <code>php artisan key:generate</code> to generate encryption key
+<li>Run Laravel database migrations <code>php artisan migrate</code></li>
+<li>Run Laravel database seeders <code>php artisan db:seed</code></li>
+<li>Run this command into terminal <code>npm run dev</code>
+<li>Open second terminal and run <code>php artisan serve</code> to run development server
+<li>Click on link http://127.0.0.1:8000 to open project into web browser</li>
+
+![projectReady](https://user-images.githubusercontent.com/38011256/222748745-59da9d66-c74c-478d-8d38-a334f1eff1d6.png)
+
+</ol>
 
 ## Technologies
 <ul>
